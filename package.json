@@ -1,0 +1,23 @@
+{
+  "name": "vibeos-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing vibeOS capabilities — pricing, tier routing, stress analysis, context compression",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "fastify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.7"
+  },
+  "license": "MIT"
+}
