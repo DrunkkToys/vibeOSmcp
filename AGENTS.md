@@ -16,4 +16,4 @@ Do not modify these files without explicit user permission:
 
 - **[vibeOScore](https://github.com/DrunkkToys/vibeOScore)** — Backend API for AI agent orchestration, model routing, cost optimization, and tier routing. This MCP server consumes its API.
 - **[theSaver-oc](https://github.com/DrunkkToys/theSaver-oc)** — Frontend dashboard (SolidJS) for the vibeOS ecosystem.
-- **[vibeos-mcp](https://github.com/DrunkkToys/vibeos-mcp)** — This project: MCP server exposing vibeOS capabilities.
+- **[vibeOSmcp](https://github.com/DrunkkToys/vibeOSmcp)** — This project: MCP server exposing vibeOS capabilities.

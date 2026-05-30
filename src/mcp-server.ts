@@ -139,7 +139,7 @@ const TOOLS: ToolDefinition[] = [
 export function createMcpServer(apiClient: ApiClient): Server {
   const server = new Server(
     {
-      name: "vibeos-mcp",
+      name: "vibeOSmcp",
       version: "1.0.0",
     },
     {

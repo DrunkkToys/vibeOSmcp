@@ -49,7 +49,7 @@ app.post('/message', async (req, reply) => {
 const start = async () => {
   try {
     await app.listen({ port: PORT, host: HOST })
-    console.log(`vibeos-mcp listening on ${HOST}:${PORT}`)
+    console.log(`vibeOSmcp listening on ${HOST}:${PORT}`)
     console.log(`  Backend API: ${API_BASE_URL}`)
     console.log(`  SSE: http://localhost:${PORT}/sse`)
     console.log(`  POST: http://localhost:${PORT}/message`)

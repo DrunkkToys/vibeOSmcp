@@ -1,4 +1,4 @@
-# vibeos-mcp
+# vibeOSmcp
 
 MCP (Model Context Protocol) server exposing vibeOS backend capabilities.
 

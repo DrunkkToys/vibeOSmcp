@@ -1,5 +1,5 @@
 {
-  "name": "vibeos-mcp",
+  "name": "vibeOSmcp",
   "version": "1.0.0",
   "description": "MCP server exposing vibeOS capabilities — pricing, tier routing, stress analysis, context compression",
   "type": "module",
