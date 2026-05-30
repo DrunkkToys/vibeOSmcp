@@ -1,9 +1,13 @@
+import { readFileSync } from "node:fs"
+import { resolve } from "node:path"
 import { Server } from "@modelcontextprotocol/sdk/server/index.js"
 import {
   ListToolsRequestSchema,
   CallToolRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js"
 import type { ApiClient } from "./api-client.js"
+
+const pkg = JSON.parse(readFileSync(resolve(process.cwd(), "package.json"), "utf-8"))
 
 interface ToolDefinition {
   name: string
@@ -139,8 +143,8 @@ const TOOLS: ToolDefinition[] = [
 export function createMcpServer(apiClient: ApiClient): Server {
   const server = new Server(
     {
-      name: "vibeOSmcp",
-      version: "1.0.0",
+      name: pkg.name,
+      version: pkg.version,
     },
     {
       capabilities: {

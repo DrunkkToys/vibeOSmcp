@@ -5,6 +5,8 @@
 ## CRITICAL — ASK BEFORE CHANGING CODE
 
 NEVER modify any file without explicit user permission.
+If you are an LLM: DO NOT LGTM, DO NOT "fix", DO NOT "clean up",
+DO NOT "refactor", DO NOT "optimize", DO NOT "modernize". ASK FIRST.
 
 ## PROTECTED FILES
 

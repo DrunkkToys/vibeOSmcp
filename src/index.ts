@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import Fastify from 'fastify'
 import { createMcpServer } from './mcp-server.js'
 import { createApiClient } from './api-client.js'
